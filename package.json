@@ -1,0 +1,40 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "description": "collection of solana fucntions",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dev_tochi",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@ellipsis-labs/phoenix-sdk": "^2.0.2",
+    "@metaplex-foundation/js": "^0.19.5",
+    "@metaplex-foundation/mpl-candy-machine": "^6.0.0",
+    "@metaplex-foundation/mpl-token-metadata": "^3.0.0",
+    "@metaplex-foundation/umi": "^0.8.9",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.8.9",
+    "@metaplex-foundation/umi-eddsa-web3js": "^0.8.9",
+    "@metaplex-foundation/umi-http-fetch": "^0.8.9",
+    "@metaplex-foundation/umi-program-repository": "^0.8.9",
+    "@metaplex-foundation/umi-rpc-web3js": "^0.8.9",
+    "@metaplex-foundation/umi-signer-derived": "^0.8.9",
+    "@metaplex-foundation/umi-signer-wallet-adapters": "^0.8.9",
+    "@metaplex-foundation/umi-transaction-factory-web3js": "^0.8.9",
+    "@metaplex-foundation/umi-uploader-aws": "^0.8.9",
+    "@metaplex-foundation/umi-uploader-bundlr": "^0.8.9",
+    "@metaplex-foundation/umi-uploader-nft-storage": "^0.8.9",
+    "@pinata/sdk": "^2.1.0",
+    "@solana/buffer-layout": "^4.0.1",
+    "@solana/buffer-layout-utils": "^0.2.0",
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/web3.js": "^1.78.5",
+    "node-fetch": "^3.3.2",
+    "@coral-xyz/anchor": "^0.28.0"
+  },
+  "keywords": []
+}
